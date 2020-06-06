@@ -17,14 +17,11 @@ public class AtividadeCiclo3 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
         
         String kg, alt;
         float resultado;
         float aa;
-        //int kilo;
-        //float altura, resultado;
-        
+                
         kg = JOptionPane.showInputDialog("\nPrograma para Calcular o IMC\nVamos começar!\n...\n\nDigite seu peso: ");
         int kilo = Integer.parseInt(kg);
         alt = JOptionPane.showInputDialog("Ótimo, agora digite sua altura usando (.) para calcularmos: ");
